@@ -61,6 +61,63 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## 📋 Fitur Utama
+
+- **Rekomendasi Otomatis**: Sistem mengambil input suhu, kelembapan, cahaya dan memprosesnya dengan Fuzzy Mamdani untuk menghasilkan jenis Monstera terbaik.
+- **Manajemen Admin**: Tambah, edit, dan hapus parameter & aturan fuzzy melalui dashboard admin.
+- **Profil Pengguna**: Pendaftaran, login, dan halaman profil dengan riwayat rekomendasi.
+- **Tampilan Responsive**: Dibangun dengan Laravel, Tailwind CSS, dan Blade Components.
+
+## 🚀 Instalasi
+
+1. Clone repo:
+   ```bash
+   git clone https://github.com/1122100/rekomendasi-tanaman.git
+   cd rekomendasi-tanaman
+
+2. Install dependencies:
+
+   ```bash
+   composer install
+   npm install && npm run dev
+   
+3. Copy file env dan atur koneksi DB:
+
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   
+4. Migrasi dan seed database:
+
+   ```bash
+   php artisan migrate --seed
+   
+5. Jalankan server:
+
+   ```bash
+   php artisan serve
+   
+
+## ⚙️ Struktur Proyek
+
+```
+├── app/
+│   ├── Http/Controllers/
+│   └── Services/
+├── database/
+│   ├── migrations/
+│   └── seeders/
+└── resources/
+    └── views/
+```
+## 👤 Tentang Saya
+
+* **Nama**: \[RAHMAT MALIKI]
+* **Prodi**: Informatika
+* **Universitas**: Universitas iIslam LAmongan
+* **Kontak**: [satset443@gmail.com](mailto:satset443@gmail.com)
+
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
