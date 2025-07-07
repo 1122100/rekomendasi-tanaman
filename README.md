@@ -114,7 +114,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 * **Nama**: \[RAHMAT MALIKI]
 * **Prodi**: Informatika
-* **Universitas**: Universitas iIslam LAmongan
+* **Universitas**: Universitas islam Lamongan
 * **Kontak**: [satset443@gmail.com](mailto:satset443@gmail.com)
 
 
